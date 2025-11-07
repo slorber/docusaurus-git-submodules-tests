@@ -1,0 +1,3 @@
+[submodule "docusaurus"]
+	path = docusaurus
+	url = git@github.com:facebook/docusaurus.git
