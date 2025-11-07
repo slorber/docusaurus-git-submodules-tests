@@ -39,3 +39,23 @@ If you already cloned the repo without submodules, you can run:
 ```bash
 git submodule update --init --recursive
 ```
+
+## Useful commands
+
+List submodules:
+
+```bash
+git submodule
+```
+
+Get the repository root dir:
+
+```bash
+git rev-parse --show-toplevel
+```
+
+Get the "superproject" path from a submodule cwd:
+
+```bash
+git rev-parse --show-superproject-working-tree
+```
