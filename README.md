@@ -5,7 +5,11 @@ Related to:
 - https://github.com/facebook/docusaurus/issues/11208
 - https://github.com/facebook/docusaurus/pull/11512
 
-Repo initialized with:
+---
+
+## Creation
+
+Repo created with 3 submodules:
 
 ```bash
 git submodule add git@github.com:facebook/docusaurus.git docusaurus
@@ -18,4 +22,20 @@ git submodule add git@github.com:facebook/react-native-website.git react-native-
 git commit -m "Add React Native Website submodule"
 
 git push
+```
+
+---
+
+## Cloning
+
+Clone the repo, including its submodules
+
+```bash
+git clone --recurse-submodules git@github.com:slorber/docusaurus-git-submodules-tests.git
+```
+
+If you already cloned the repo without submodules, you can run:
+
+```bash
+git submodule update --init --recursive
 ```
