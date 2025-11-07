@@ -1,3 +1,6 @@
 [submodule "docusaurus"]
 	path = docusaurus
 	url = git@github.com:facebook/docusaurus.git
+[submodule "react-native"]
+	path = react-native
+	url = git@github.com:facebook/react-native.git
