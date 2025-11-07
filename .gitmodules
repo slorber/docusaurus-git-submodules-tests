@@ -4,3 +4,6 @@
 [submodule "react-native"]
 	path = react-native
 	url = git@github.com:facebook/react-native.git
+[submodule "react-native-website"]
+	path = react-native-website
+	url = git@github.com:facebook/react-native-website.git
